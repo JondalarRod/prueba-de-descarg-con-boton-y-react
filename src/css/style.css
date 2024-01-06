@@ -1,0 +1,940 @@
+@font-face {
+	font-family: "Fester-Thin";
+	src: url("../fonts/Fester Thin.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Bold-Italic";
+	src: url("../fonts/Fester Bold Italic.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Bold";
+	src: url("../fonts/Fester Bold.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Book-Italic";
+	src: url("../fonts/Fester Book Italic.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Book";
+	src: url("../fonts/Fester Book.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-ExtraLight-Italic";
+	src: url("../fonts/Fester ExtraLight Italic.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-ExtraLight";
+	src: url("../fonts/Fester ExtraLight.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Heavy-Italic";
+	src: url("../fonts/Fester Heavy Italic.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Heavy";
+	src: url("../fonts/Fester Heavy.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Light-Italic";
+	src: url("../fonts/Fester Light Italic.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Light";
+	src: url("../fonts/Fester Light.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Regular-Italic";
+	src: url("../fonts/Fester Regular Italic.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Regular";
+	src: url("../fonts/Fester Regular.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-SemiBold Italic";
+	src: url("../fonts/Fester SemiBold Italic.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-SemiBold";
+	src: url("../fonts/Fester SemiBold.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-SemiCondensed-Bold";
+	src: url("../fonts/Fester Semi-condensed Bold.otf") format('OpenType');
+} @font-face {
+	font-family: "Fester-Thin-Italic";
+	src: url("../fonts/Fester Thin Italic.otf") format('OpenType');
+}
+
+@media (max-width: 575.98px) {
+	.toggleBtn {
+		margin-top: -70px;
+	} .navbar-collapsed {
+		margin-top: -20px;
+	} #banner {
+		margin-top: 100px !important;
+		min-height: 160px !important;
+	} h2 {
+		font-size: 30px !important;
+	} nav button {
+		margin-top: -50px !important;
+	} nav a {
+		text-align: end;
+		margin-right: 10px;
+	} #basic-navbar-nav {
+		margin-top: -50px;
+	} .facturacion {
+		align-items: center !important;
+	} .tyc {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	} nav .logo {
+		width: 110px !important;
+	}
+
+	#nuestra-empacadora{
+		background-size: cover !important;
+	}
+
+	/* HOME */
+	.ms-5 {
+		margin-left: 0px !important;
+	} .me-5 {
+		margin-right: 0px !important;
+	} .pTrayectoria {
+		padding: 100px 20px !important;
+	} #callToActionHome .armaTuCaja {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} #callToActionHome h2 {
+		text-align: center !important;
+	}
+
+	/* NOSOTROS */
+	.callh2 {
+        text-align: center !important;
+    } .callp {
+        text-align: center !important;
+    } .callBtn {
+        justify-content: center !important;
+        align-items: center !important;
+    } .callp2 {
+        text-align: center !important;
+    }  #valores {
+        border-top-left-radius: 0% !important;
+        border-top-right-radius: 0% !important;
+    }
+
+	/* PRODUCTOS */
+	.visitanos {
+        justify-content: center !important;
+        align-items: center !important;
+    } .visitanos h2, .visitanos p {
+        text-align: center;
+    } .texto-corte {
+		padding: 5px !important;
+	} .dataInfo {
+		padding: 5px !important;
+	} .texto-corte p{
+		font-size: 14px !important;
+	} .cuadroInfo {
+		padding: 20px 0px !important;
+	}
+
+	.indicators-container {
+		grid-template-columns: auto auto auto !important;
+	}
+
+	.banner-img-nosotros{
+		height: 20rem !important;
+	}
+
+    /* Billing */
+    .spaceBanner {
+		min-height: 135px !important;
+    }
+
+	.billing-card {
+		padding: 1rem 3rem !important;
+	}
+
+	.billing-center-text-title {
+		text-align: center !important;
+		letter-spacing: -1px !important;
+	}
+
+} @media (min-width: 575.98px) and (max-width: 767.98px) {
+	.toggleBtn {
+		margin-top: -100px !important;
+	} .navbar-collapsed {
+		margin-top: -60px;
+	} #banner {
+		margin-top: 100px !important;
+		min-height: 160px !important;
+	} h2 {
+		font-size: 40px !important;
+	} nav button {
+		margin-top: -50px !important;
+	} nav a {
+		text-align: end;
+		margin-right: 10px;
+	} #basic-navbar-nav {
+		margin-top: -50px;
+	} .facturacion {
+		align-items: center !important;
+	} .tyc {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* HOME */
+	.ms-5 {
+		margin-left: 0px !important;
+	} .me-5 {
+		margin-right: 0px !important;
+	} .pTrayectoria {
+		padding: 100px 20px !important;
+	} #callToActionHome .armaTuCaja {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} #callToActionHome h2 {
+		text-align: center !important;
+	}
+
+	/* NOSOTROS */
+	.callh2 {
+        text-align: center !important;
+    } .callp {
+        text-align: center !important;
+    } .callBtn {
+        justify-content: center !important;
+        align-items: center !important;
+    } #valores {
+        border-top-left-radius: 0% !important;
+        border-top-right-radius: 0% !important;
+    }
+
+	/* PRODUCTOS */
+	.visitanos {
+        justify-content: center !important;
+        align-items: center !important;
+    } .visitanos h2, .visitanos p {
+        text-align: center;
+    } .cuadroInfo {
+		padding: 20px 0px !important;
+	}
+
+	.indicators-container {
+		grid-template-columns: auto auto auto !important;
+	}
+
+	.banner-img-nosotros{
+		height: 20rem !important;
+	}
+
+    /* Billing */
+    .spaceBanner {
+		min-height: 180px !important;
+    }
+
+	.billing-center-text-title {
+		text-align: center !important;
+		letter-spacing: -2px !important;
+	}
+
+} @media (min-width: 767.98px) and (max-width: 991.98px) {
+	.toggleBtn {
+		margin-top: -100px !important;
+	} .navbar-collapsed {
+		margin-top: -60px;
+	} #banner {
+		margin-top: 100px !important;
+		min-height: 360px !important;
+	} h2 {
+		font-size: 40px !important;
+	} nav button {
+		margin-top: -50px !important;
+	} nav a {
+		text-align: end;
+		margin-right: 10px;
+	} #basic-navbar-nav {
+		margin-top: -50px;
+	} .facturacion {
+		align-items: center !important;
+	} .tyc {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* HOME */
+	.ms-5 {
+		margin-left: 0px !important;
+	} .me-5 {
+		margin-right: 0px !important;
+	} .pTrayectoria {
+		padding: 100px 20px !important;
+	} #callToActionHome .armaTuCaja {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} #callToActionHome h2 {
+		text-align: center !important;
+	}
+
+	/* NOSOTROS */
+	.callh2 {
+        text-align: center !important;
+    } .callp {
+        text-align: center !important;
+    } .callBtn {
+        justify-content: center !important;
+        align-items: center !important;
+    } #valores {
+        border-top-left-radius: 0% !important;
+        border-top-right-radius: 0% !important;
+    }
+
+	/* PRODUCTOS */
+	.visitanos {
+        justify-content: center !important;
+        align-items: center !important;
+    } .visitanos h2, .visitanos p {
+        text-align: center;
+    } .cuadroInfo {
+		padding: 20px 0px !important;
+	}
+
+	.container-histories{
+		height: 350px !important;
+	}
+
+    /* Billing */
+    .spaceBanner {
+		min-height: 180px !important;
+    }
+
+	.billing-center-text-title {
+		text-align: center !important;
+		letter-spacing: -2px !important;
+	}
+
+
+} @media (min-width: 991.98px) and (max-width: 1199.98px) {
+	.nav-link {
+		font-size: 12px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} .facturacionMenu {
+		font-size: 12px;
+	}
+	.container-histories{
+		height: 450px !important;
+	}
+
+    /* Billing */
+    .spaceBanner {
+		min-height: 120px !important;
+    }
+
+} @media ( min-width: 1200px ) {
+
+    /* Billing */
+    .spaceBanner {
+		min-height: 110px !important;
+    }
+}
+/************************************************************/
+
+/* MAIN */
+	a:hover {
+		color: white;
+	}.white {
+		color: #fff;
+	} .orange {
+		color: #ff411f
+	} .bg-orange {
+		background-color: #ff411f;
+	}p, li {
+		color: #27191d;
+		font-family: Fester-Regular;
+		margin-bottom: 0px;
+	} input {
+		background-color: #f5f3f8 !important;
+		border: 1px solid #f5f3f8 !important;
+		padding: 10px 20px !important;
+	} input::placeholder {
+		color: #27191d !important;
+	} textarea {
+		background-color: #f5f3f8 !important;
+		border: 1px solid #f5f3f8 !important;
+		padding: 10px 20px !important;
+	} textarea::placeholder {
+		color: #27191d !important;
+	} h2 {
+		font-size: 55px;
+		color: #27191d;
+		font-family: Fester-Bold;
+	} nav {
+		min-height: 100px;
+		max-height: 100px;
+	} nav .logo {
+		width: 150px;
+		box-shadow: 12px 0 15px -4px #26111644, -12px 0 8px -4px #26111644;
+		padding-top: 30px;
+	} nav.bg-light {
+		background-color: #fff !important;
+	} .navbar-collapsed {
+		background-color: #fff !important;
+	} #basic-navbar-nav {
+		background-color: #fff !important;
+	} .nav-link {
+		color: #27191d;
+		font-family: Fester-Bold;
+		margin-left: 10px;
+	} .nav-link-active {
+		color: #ff411f !important;
+	} .nav-link:hover {
+		color: #ff411f !important;
+	} #footer {
+		background-color: #261116;
+		padding: 40px 0px;
+	} .footerRedes {
+		color: #fff;
+		font-family: Fester-Bold;
+		font-size: 1.2em;
+		line-height: 1;
+		margin-right: 5px;
+	} .redesLink img {
+		max-width: 35px;
+		border-radius: 5px;
+	} .footerLogo {
+		max-width: 110px;
+		border-radius: 5px;
+	} .btnCustom {
+		background-color: #ff411f !important;
+		color: #fff !important;
+		text-decoration: none !important;
+	} .btnCustomDark {
+		font-family: Fester-Bold;
+		background-color: #27191d !important;
+		color: #fff !important;
+		text-decoration: none !important;
+	} .btnCustomOrange {
+		font-family: Fester-Bold;
+		background-color: #ff411f !important;
+		color: #fff !important;
+		text-decoration: none !important;
+	} .tyc {
+		color: #fff;
+		font-family: Fester-Bold;
+		font-size: 12px;
+	} .tyc div {
+		font-family: Fester-Bold;
+		margin: 0px !important;
+	} .tyc a {
+		font-family: Fester-Bold;
+		font-size: 12px;
+		color: #fff;
+		padding: 0px;
+		text-decoration: none !important;
+	} .tyc a:hover {
+		color: #fff;
+	} .tyc .separator {
+		padding: 0px 5px;
+	} #notFoundBanner {
+		min-height: 75vh;
+		padding-top: 180px;
+	} .facturacion {
+		flex-direction: column;
+		justify-content: end;
+		align-items: end;
+	} .parrilla {
+		width: 70px;
+	} .uppercase {
+		text-transform: uppercase;
+	} .strong {
+		font-weight: bolder;
+	} .pointer {
+		cursor: pointer;
+	} .link {
+		color: #27191d !important;
+		text-decoration: underline;
+	} .flags {
+		max-width: 30px;
+	}
+
+
+/* HOME */
+	#banner {
+		margin-top: 100px;
+		min-height: 550px;
+	} .bannerSlidier1 {
+		background-image: url("../assets/img/header-home1.webp");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	} .bannerSlidier2 {
+		background-image: url("../assets/img/header-home2.webp");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	} .bannerSlidier3 {
+		background-image: url("../assets/img/header-home3.webp");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	} .slider-wrapper {
+		max-height: 550px;
+	} .bckGray {
+		background-color: #f5f3f8;
+		padding: 100px 0px;
+	} .pTrayectoria {
+		padding: 100px 50px;
+	} #distingue {
+		background-image: url("../assets/img/back-distingue.webp");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		padding: 50px 0px;
+	} #distingue {
+		color: #fff;
+	} #distingue p {
+		max-width: 640px;
+	} #productos {
+		padding: 50px 0px;;
+	} #callToActionHome {
+		background-image: url("../assets/img/back-bannerclean.webp");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 50px 0px;
+	} #callToActionHome h2 {
+		font-family: Fester-Bold;
+		color: #fff;
+		font-size: 54px;
+		line-height: 1;
+	} #callToActionHome p {
+		font-family: Fester-Semibold;
+		color: #fff;
+		font-size: 20px;
+	} #faq {
+		padding: 50px 0px;
+		background-color: #f2f2f4;
+	} #faq .accordion-header button {
+		background-color: transparent;
+		font-family: Fester-Bold;
+	} #faq .accordion-button:not(.collapsed) {
+		color: #27191d;
+	} #faq .accordion-item {
+		border: 0px !important;
+		margin-bottom: 15px;
+		border-radius: 5px;
+	} #faq .accordion-body {
+		font-family: Fester-Regular;
+	} #faq .accordion-button::after {
+		background-image: url("../assets/img/faq-more.webp");
+	} #faq .accordion-button:not(.collapsed)::after {
+		transform: rotate(-135deg);
+	}
+
+/* NOSOTROS */
+	.orangeLine {
+		background-color: #ff411f;
+		width: 10%;
+		height: 1px;
+	} .timeLine {
+		width: 90%;
+		text-align: center;
+		background-color: #f5f3f8 !important;
+		padding: 8px 0px;
+		border-radius: 5px;
+	} .timeLine2 {
+		width: 90%;
+		text-align: center;
+		background-color: #ff411f !important;
+		padding: 8px 0px;
+		border-radius: 5px;
+	} .timeLine2 p {
+		font-family: Fester-Bold !important;
+		color: #fff;
+	} .generacion {
+		background-color: #f5f3f8;
+		border-bottom: 4px solid #ff411f;
+	} .generacion h2 {
+		color: #ff411f;
+	} .divider {
+		width: 100%;
+		height: 2px;
+		background-color: #27191d;
+	} #valores {
+		background-color: #f8f6f8;
+		border-top-left-radius: 50%;
+		border-top-right-radius: 50%;
+	} #valores .circle {
+		justify-content: center;
+		align-items: center;
+		background-color: #fff;
+		border-radius: 100%;
+		padding: 10px;
+		width: 100px;
+		height: 100px;
+		box-shadow: 10px 0 10px -4px #26111644, -8px 0 8px -4px #26111644;
+	} #valores img {
+		max-width: 100%;
+		height: 50px;
+	} #instalaciones {
+		background-image: url("../assets/img/img-empacadora2.jpg");
+		background-repeat: no-repeat;
+		background-position: 80%;
+		background-size: 100% 42rem;
+		padding: 150px 0px;
+	} .cuadro {
+		background-color: #fff;
+		padding: 30px;
+	} #transportacion-y-gente {
+		background-color: #f5f3f8;
+	} #transportacion-y-gente .bloque{
+		background-color: #fff;
+		padding: 20px;
+		margin: 20px 0px;
+	} #callToActionNosotros {
+		background-image: url("../assets/img/back-bannerclean2.webp");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	} .callh2 {
+		text-align: start;
+	} .callp {
+		text-align: start;
+	} .callBtn {
+		justify-content: start;
+		align-items: start;
+	}
+
+/* PRODUCTOS */
+	.star {
+		max-width: 40px;
+	} .backGray {
+		/*background: linear-gradient(to bottom,#fff 10%, #f5f3f8 10%, #f5f3f8 90%, #fff 33%); /*f5f3f8*/
+		background-color: #f5f3f8;
+	} #productos-al-dia ul {
+		padding: 0px;
+	} #productos-al-dia ul li {
+		font-family: Fester-Regular;
+		list-style: none;
+		background-image: url("../assets/img/check.webp");
+		background-repeat: no-repeat;
+		background-size: 15px;
+		position: center;
+		padding-left: 1.5rem;
+		margin: 5px 0px;
+	} .cuadroInfo {
+		background-color: #f5f3f8;
+		padding: 20px 50px;
+	} .dataInfo {
+		padding: 20px 30px;
+	} .misTabs {
+		border-bottom: 5px solid #ff411f;
+		position: relative;
+		z-index: 1;
+	} .misTabs .nav-link.active {
+		background-color: #ff411f !important;
+		color: #fff !important;
+		border-bottom: 0px solid #ff411f;
+		border-radius: 0px;
+	} .misTabs .nav-link.active:hover {
+		color: #fff !important;
+	} .misTabs .nav-link {
+		margin: 0px;
+		background-color: #f5f3f8;
+		border-radius: 0px;
+		padding: 10px 0px;
+	} #productos-tab .tab-content ul {
+		list-style: none;
+	} #productos-tab .tab-content ul li::before {
+		content: "\2022";
+		color: #ff411f;
+		font-weight: bold;
+		font-size: 18px;
+		display: inline-block;
+		width: 1em;
+		margin-left: -1em;
+	} .imgTab1 img, .imgTab2 img, .imgTab3 img, .imgTab4 img, .imgTab5 img {
+		margin-top: -40px !important;
+		max-width: 90px !important;
+		position: relative;
+		top: 50px;
+	} .misTabs .nav-item {
+		display: grid;
+		align-items: end;
+	} #callToActionProductos {
+		background-image: url("../assets/img/back-bannerclean3.webp");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	} .callh2 {
+		text-align: start;
+	} .callp {
+		text-align: start;
+	} .callp2 {
+		text-align: start;
+		font-size: 14px;
+	} .callBtn {
+		justify-content: start;
+		align-items: start;
+	} .marker {
+		max-width: 70px !important;
+	} .visitanos {
+		flex-direction: column;
+		justify-content: start;
+		align-items: start;
+	} .timeline-separator {
+		background-color: #e5e5e5;
+		width: 65%;
+		height: 2px;
+	}
+	/*.contenedor-corte {
+		position: relative;
+		display: inline-block;
+		text-align: center;
+	} .texto-corte {
+		position: absolute;
+		bottom: 0px;
+		padding: 10px 20px 40px 20px;
+		background-color: #000a;
+	} .texto-corte p {
+		color: #fff;
+	} .dataInfo li {
+		cursor: pointer;
+	}*/
+
+/* SUCURSALES */
+	.rowColorPar{
+		background-color: #f5f3f8;
+	} .rowColorImpar {
+		background-color: #e9e9e9;
+	} iframe {
+		width: 100%;
+	} #nuestra-empacadora {
+		background-image: url("../assets/img/img-empacadora2.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 40rem;
+	} .cuadroInfoBorderBottom {
+		background-color: #fff;
+		margin: 50px 0px;
+		padding: 40px 30px;
+		border-bottom: 6px solid #ff411f;
+	}  #equipo-de-trabajo {
+		background-image: url("../assets/img/back-unete.webp");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	} .blockSucursales {
+		max-height: 600px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+	} .imgSucursal {
+		border-radius: 20px;
+	} .sucursalTel {
+		color: #27191d;
+		text-decoration: none;
+	} .sucursalTel:hover {
+		color: #27191d;
+	}
+
+/* BOLSA DE TRABAJO */
+	#tabaja-con-nosotros .upload {
+		background-image: url("../assets/img/icon-upload.webp");
+		background-repeat: no-repeat;
+		background-size: 20px;
+		background-position: 98% 50%;
+		cursor: pointer;
+	}
+
+/* METODIKA */
+	.metodika{
+		font-family: "Fester-semibold" !important;
+		color: white;
+		font-size: small;
+	} .metodia-link {
+		color: white;
+		text-decoration: none;
+	}
+
+
+	.indicators-container {
+		display: grid;
+		grid-template-columns: auto auto auto auto auto;
+		gap: 5px;
+	} .indicator {
+		text-align: center;
+		background-color: #ff411f;
+		color: #fff;
+		font-family: "Fester-Light";
+		border-radius: 50px;
+		cursor: pointer;
+	} .indicator.active {
+		font-family: "Fester-Bold";
+		background-color: #fff;
+		color: #ff411f;
+	}
+
+	.container-histories{
+		height: 600px;
+		overflow-y: scroll;
+	}
+
+	.line-history{
+		border-left: 2px solid #ff411f; /* 2px de ancho, color naranja */
+  		height: 100%;
+	}
+
+	.line-history::before{
+
+		margin: 0px 7px 0px -13px;
+		display: inline-flex;
+		/* right: 96px; */
+		content: "";
+		position: unset;
+		width: 1.5rem;
+		height: 1.5rem;
+		background-color: #ff411f;
+		border-radius: 50%;
+		/* left: 50%; */
+		/* top: 0px; */
+
+	}
+
+	.d-contents{
+		display: contents;
+	}
+
+	.histories {
+		position: relative;
+		max-height: 400px; /* Altura máxima visible de cada historia */
+		overflow: hidden; /* Oculta el contenido que supere la altura máxima */
+		transition: background 1s;
+	  }
+
+	/* .histories-hidden-bottom::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100px;
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+		pointer-events: none;
+	}
+	*/
+
+	.histories.histories-hidden-top::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+		pointer-events: none;
+		transition: background 1s;
+	}
+
+
+	.histories.histories-hidden-bottom::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+		pointer-events: none;
+		transition: background 1s;
+	  }
+	.banner-img-nosotros{
+		height: 43rem;
+	}
+
+/* Billing */
+
+.billing-background {
+	background-color: #F5F3F8;
+	min-height: 100%;
+}
+
+.billing-container {
+	max-width: 50rem;
+}
+.billing-container .banner {
+	max-height: 8rem;
+	max-width: 8rem;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+}
+
+.billing-button {
+	background-color: #FF3C16;
+	color: #ffffff;
+	padding: 0.7rem 5.3rem;
+	margin-bottom: 1rem;
+	margin-top: 0;
+	font-size: 1.2rem;
+	font-family: Fester-Regular;
+}
+
+.billing-black-button {
+	background-color: #1e2022;
+	color: #ffffff;
+	padding: 0.7rem 5.3rem;
+	margin-bottom: 1rem;
+	margin-top: 0;
+	font-size: 1.2rem;
+	font-family: Fester-Regular;
+}
+
+.billing-card {
+	padding: 3rem 7rem;
+}
+
+.font {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.billing-center-text {
+	text-align: center;
+}
+
+.billing-center-text-title {
+	text-align: center;
+	letter-spacing: -3.5px;
+	line-height: 0.9;
+}
+
+.billing-left-text-title {
+	text-align: left;
+	letter-spacing: -3.5px;
+	line-height: 0.9;
+}
+
+.d-label {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.logo-margin {
+	margin-top: 3rem;
+}
+
+.form-control {
+	line-height: 2.5rem;
+}
+
+.modal-header-display {
+	display: block;
+}
+
+.modal-content {
+	padding: 1rem 1rem;
+}
+
+.form-select {
+	line-height: 2.5rem;
+	background-color: #F5F3F8;
+}
